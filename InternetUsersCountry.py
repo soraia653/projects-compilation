@@ -4,6 +4,8 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import altair as alt
 
+clean_users = pd.read_csv("clean_users.csv")
+
 st.set_page_config(layout="wide")
 
 st.sidebar.title("How does this visualization work?")
